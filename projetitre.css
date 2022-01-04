@@ -151,3 +151,30 @@ padding-top: 30px;
 {
     float:inline-end;
 }
+.contact
+{
+    background-color: black;
+    color: blanchedalmond;
+    float:inline-end;
+}
+.who
+{
+    background-color: black;
+    color: blanchedalmond;
+    float:inline-end;
+}
+.faq
+{
+    background-color: black;
+    color: blanchedalmond;
+    float:inline-end;
+}
+.green
+{
+    background-color: #67ad2d;
+}
+textarea
+{
+    width: 200px;
+    height: 100px;
+}

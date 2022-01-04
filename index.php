@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
@@ -22,12 +23,12 @@
         <div class="col dropdown d-block d-md-block d-lg-block d-xl-none d-xxl-none">
             <i class="fas fa-bars iBars" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">La paire de lunettes</a></li>
+                <li><a class="dropdown-item" href="#case">La paire de lunettes</a></li>
                 <li><a class="dropdown-item" href="#">Les produits</a></li>
                 <li><a class="dropdown-item" href="#">Défauts visuels et Pathologies</a></li>
                 <li><a class="dropdown-item" href="#">Conseils & Astuces</a></li>
                 <li><a class="dropdown-item" href="#">Infos & Actus</a></li>
-                <li><a class="dropdown-item" href="#">Chat</a></li>
+                <li><a class="dropdown-item" href="#">Forum</a></li>
                 <li><a class="dropdown-item" href="#">FAQ</a></li>
                 <li><a class="dropdown-item" href="#">CONTACT</a></li>
                 <li><a class="dropdown-item" href="#">QUI-SUIS-JE ?</a></li>
@@ -73,7 +74,7 @@
                         <button id="infoBtn" class="navButton">Infos & Actus</button>
                     </div>
                     <div class="col-2 text-center d-none d-md-none d-lg-none d-xl-block d-xxl-block">
-                        <button id="chatBtn" class="navButton">Chat</button>
+                        <button id="chatBtn" class="navButton">Forum</button>
                     </div>
                 </div>
             </div>
@@ -256,23 +257,25 @@
         <div class="d-none d-md-none d-lg-none d-xl-block d-xxl-block footer3">
             <p class="link2">Suivez-moi sur les réseaux et<br />
                 partagez ce que vous apprenez avec les autres:</p>
-                <i class="far fa-comments fa-4x bulle"></i>
+            <i class="far fa-comments fa-4x bulle"></i>
             <p class="chat">Venez échanger et partager avec de nombreuse personnes,<br />
                 qui comme vous sont curieux d'y voir plus clair!</p>
-                <i class="fab fa-facebook-square fa-4x"></i>
-                <i class="fab fa-instagram fa-4x"></i>
-                <i class="fab fa-twitter-square fa-4x"></i>
-                <i class="fab fa-linkedin fa-4x"></i>
-                <i class="fab fa-youtube fa-4x"></i>
+            <i class="fab fa-facebook-square fa-4x"></i>
+            <i class="fab fa-instagram fa-4x"></i>
+            <i class="fab fa-twitter-square fa-4x"></i>
+            <i class="fab fa-linkedin fa-4x"></i>
+            <i class="fab fa-youtube fa-4x"></i>
         </div>
         <!--SECOND FOOTER NOIR MOBILE&WEB-->
         <div class="footer2">
-        <button id="contact" class="">Contact</button>
-        <button id="contact" class="">Contact</button>
-        <button id="contact" class="">Contact</button>
+            <button id="contact" class="contact">Contact</button>
+            <?php
+require('formulaire.php');
+?>
+            <button id="who" class="who">Qui-suis-je?</button>
+            <button id="faq" class="faq">FAQ</button>
         </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
